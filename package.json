@@ -1,0 +1,21 @@
+{
+  "name": "album_app",
+  "version": "1.0.0",
+  "description": "Single page album app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec --autotest --color --watch",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "jasmine-node": "^1.14.5",
+    "node-static": "^0.7.8",
+    "nodemon": "^1.10.2",
+    "request": "^2.74.0"
+  }
+}
