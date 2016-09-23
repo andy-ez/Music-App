@@ -18,9 +18,9 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks("grunt-conrtib-uglify");
+  grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-bower-concat");
 
-  grunt.registerTask("default", ["bower_cnocat", "uglify"]);
+  grunt.registerTask("default", ["bower_concat", "uglify"]);
 
 }
